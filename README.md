@@ -1,16 +1,38 @@
-## Hi there 👋
+# Hi, I'm Vanga Bhavadeesh Sai Reddy 👋
 
-<!--
-**Bhavadeeesh-1904/Bhavadeeesh-1904** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### 🚀 Fullstack Developer | Creative Problem Solver
 
-Here are some ideas to get you started:
+I am a Fullstack Engineer dedicated to building scalable, high-performance web applications. I specialize in the React ecosystem and cloud-native backend architectures.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+### 🛠 Tech Stack & Tools
+
+- **Frontend:** React, Next.js, Tailwind CSS, TypeScript, Redux
+- **Backend:** Node.js, Express, Python (Django/FastAPI), Go
+- **Database:** PostgreSQL, MongoDB, Redis
+- **Cloud/DevOps:** AWS (EC2, S3, Lambda), Docker, Git, CI/CD Pipelines
+
+---
+
+### 📊 GitHub Stats
+![Bhavadeesh's GitHub stats](https://github-readme-stats.vercel.app/api?username=Bhavadeeesh-1904&show_icons=true&theme=tokyonight)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Bhavadeeesh-1904&layout=compact&theme=tokyonight)
+
+---
+
+### ⚡ Recent Focus
+- **Architecture:** Designing event-driven systems with WebSockets.
+- **Performance:** Optimizing database queries for low-latency responses.
+- **UI/UX:** Crafting accessible, dark-mode-first interfaces.
+
+---
+
+### 📫 Connect with Me
+- **Portfolio:** [Bhavadeeesh-1904.github.io](https://Bhavadeeesh-1904.github.io)
+- **LinkedIn:** [Bhavadeesh Sai Reddy](https://www.linkedin.com/in/bhavadeesh-sai-reddy-vanga-53200a348/)
+- **Email:** bavadeeshvanga@gmail.com
+- **Phone:** +91 9392032509
+
+---
+*“Turning complex problems into elegant, functional code.”*
