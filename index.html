@@ -7,9 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         body { background-color: #020617; color: #f8fafc; scroll-behavior: smooth; }
-        .glow-text {
-            text-shadow: 0 0 20px rgba(56, 189, 248, 0.4);
-        }
+        .glow-text { text-shadow: 0 0 20px rgba(56, 189, 248, 0.4); }
         .glass-card {
             background: rgba(15, 23, 42, 0.6);
             backdrop-filter: blur(12px);
@@ -19,70 +17,84 @@
             border-color: #38bdf8;
             box-shadow: 0 0 30px rgba(56, 189, 248, 0.15);
         }
-        /* Custom Scrollbar */
-        ::-webkit-scrollbar { width: 8px; }
-        ::-webkit-scrollbar-track { background: #020617; }
-        ::-webkit-scrollbar-thumb { background: #1e293b; border-radius: 10px; }
-        ::-webkit-scrollbar-thumb:hover { background: #38bdf8; }
+        .skill-badge {
+            background: rgba(56, 189, 248, 0.1);
+            border: 1px solid rgba(56, 189, 248, 0.2);
+            padding: 4px 12px;
+            border-radius: 99px;
+            font-size: 0.75rem;
+            color: #38bdf8;
+            font-weight: 700;
+        }
     </style>
 </head>
 <body class="font-sans antialiased selection:bg-sky-500/30">
 
     <nav class="fixed top-0 w-full z-50 glass-card border-b border-slate-800">
         <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-            <div class="text-xl font-black tracking-tighter text-sky-400">VBSR<span class="text-white">.</span></div>
-            <div class="hidden md:flex space-x-8 text-sm font-bold uppercase tracking-widest text-slate-400">
-                <a href="#about" class="hover:text-sky-400 transition">About</a>
+            <div class="text-xl font-black tracking-tighter text-sky-400 italic">VBSR<span class="text-white">.</span></div>
+            <div class="hidden md:flex space-x-8 text-xs font-bold uppercase tracking-widest text-slate-400">
                 <a href="#stack" class="hover:text-sky-400 transition">Stack</a>
                 <a href="#projects" class="hover:text-sky-400 transition">Projects</a>
-                <a href="mailto:bavadeeshvanga@gmail.com" class="text-white border-b-2 border-sky-500 pb-1">Hire</a>
+                <a href="tel:9392032509" class="hover:text-sky-400 transition">Call</a>
+                <a href="mailto:bavadeeshvanga@gmail.com" class="text-white bg-sky-600 px-4 py-1 rounded-full hover:bg-sky-500 transition">Hire Me</a>
             </div>
         </div>
     </nav>
 
-    <section class="pt-40 pb-20 px-6">
+    <header class="pt-40 pb-20 px-6">
         <div class="max-w-5xl mx-auto text-center">
-            <h2 class="text-sky-500 font-mono mb-4 tracking-[0.5em] uppercase text-sm animate-pulse">Available for Opportunities</h2>
-            <h1 class="text-6xl md:text-8xl font-black mb-6 tracking-tight glow-text">
+            <h2 class="text-sky-500 font-mono mb-4 tracking-[0.5em] uppercase text-sm">Fullstack Developer</h2>
+            <h1 class="text-6xl md:text-8xl font-black mb-6 tracking-tight glow-text leading-tight">
                 Bhavadeesh <br> <span class="text-slate-500 italic">Sai Reddy</span>
             </h1>
             <p class="text-xl text-slate-400 max-w-2xl mx-auto mb-12 leading-relaxed">
-                Fullstack Developer specializing in <span class="text-white border-b border-sky-900">React ecosystems</span> and 
-                <span class="text-white border-b border-sky-900">scalable cloud architecture</span>.
+                Engineering high-performance web applications with a focus on the <span class="text-white">MERN stack</span>, 
+                <span class="text-white">System Architecture</span>, and <span class="text-white">Cloud Scalability</span>.
             </p>
             
-            <div class="flex flex-wrap justify-center gap-6">
-                <a href="https://github.com/Bhavadeeesh-1904" target="_blank" 
-                   class="bg-sky-500 hover:bg-sky-400 text-slate-950 px-10 py-4 rounded-full font-black transition-all transform hover:scale-105 shadow-xl shadow-sky-500/40">
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="https://github.com/Bhavadeeesh-1904" target="_blank" class="bg-white text-slate-950 px-10 py-4 rounded-xl font-black transition-all transform hover:scale-105">
                     GitHub Profile
                 </a>
-                <a href="https://www.linkedin.com/in/bhavadeesh-sai-reddy-vanga-53200a348/" target="_blank" 
-                   class="bg-sky-500 hover:bg-sky-400 text-slate-950 px-10 py-4 rounded-full font-black transition-all transform hover:scale-105 shadow-xl shadow-sky-500/40">
+                <a href="https://www.linkedin.com/in/bhavadeesh-sai-reddy-vanga-53200a348/" target="_blank" class="border border-slate-700 hover:border-sky-500 px-10 py-4 rounded-xl font-black transition-all">
                     LinkedIn
                 </a>
             </div>
         </div>
-    </section>
+    </header>
 
     <section id="stack" class="py-20 bg-slate-950/50">
-        <div class="max-w-6xl mx-auto px-6">
-            <h3 class="text-slate-500 font-bold mb-10 text-center uppercase tracking-widest text-xs">The Core Stack</h3>
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-                <div class="glass-card p-6 rounded-2xl text-center">
-                    <div class="text-sky-400 font-bold mb-1">Frontend</div>
-                    <div class="text-sm text-slate-400">Next.js, Tailwind, TS</div>
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <h3 class="text-slate-500 font-bold mb-10 uppercase tracking-widest text-xs">Technical Expertise</h3>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="glass-card p-8 rounded-3xl border transition hover:border-sky-500/50">
+                    <div class="text-sky-400 font-bold mb-3 text-lg">Frontend</div>
+                    <div class="flex flex-wrap justify-center gap-2">
+                        <span class="skill-badge">React</span><span class="skill-badge">Next.js</span>
+                        <span class="skill-badge">Tailwind</span><span class="skill-badge">TypeScript</span>
+                    </div>
                 </div>
-                <div class="glass-card p-6 rounded-2xl text-center">
-                    <div class="text-indigo-400 font-bold mb-1">Backend</div>
-                    <div class="text-sm text-slate-400">Node, Python, Go</div>
+                <div class="glass-card p-8 rounded-3xl border transition hover:border-indigo-500/50">
+                    <div class="text-indigo-400 font-bold mb-3 text-lg">Backend</div>
+                    <div class="flex flex-wrap justify-center gap-2">
+                        <span class="skill-badge">Node.js</span><span class="skill-badge">Python</span>
+                        <span class="skill-badge">FastAPI</span><span class="skill-badge">Express</span>
+                    </div>
                 </div>
-                <div class="glass-card p-6 rounded-2xl text-center">
-                    <div class="text-purple-400 font-bold mb-1">Database</div>
-                    <div class="text-sm text-slate-400">PostgreSQL, Redis</div>
+                <div class="glass-card p-8 rounded-3xl border transition hover:border-purple-500/50">
+                    <div class="text-purple-400 font-bold mb-3 text-lg">Data</div>
+                    <div class="flex flex-wrap justify-center gap-2">
+                        <span class="skill-badge">PostgreSQL</span><span class="skill-badge">MongoDB</span>
+                        <span class="skill-badge">Redis</span><span class="skill-badge">Prisma</span>
+                    </div>
                 </div>
-                <div class="glass-card p-6 rounded-2xl text-center">
-                    <div class="text-emerald-400 font-bold mb-1">DevOps</div>
-                    <div class="text-sm text-slate-400">AWS, Docker, CI/CD</div>
+                <div class="glass-card p-8 rounded-3xl border transition hover:border-emerald-500/50">
+                    <div class="text-emerald-400 font-bold mb-3 text-lg">DevOps</div>
+                    <div class="flex flex-wrap justify-center gap-2">
+                        <span class="skill-badge">AWS</span><span class="skill-badge">Docker</span>
+                        <span class="skill-badge">CI/CD</span><span class="skill-badge">Vercel</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -90,54 +102,60 @@
 
     <section id="projects" class="py-24 px-6">
         <div class="max-w-6xl mx-auto">
-            <div class="flex justify-between items-end mb-16">
-                <h3 class="text-4xl font-black">Featured Projects</h3>
-                <a href="https://github.com/Bhavadeeesh-1904" class="text-sky-500 hover:underline">See all on GitHub →</a>
-            </div>
-
+            <h3 class="text-4xl font-black mb-16">Selected Projects</h3>
             <div class="grid md:grid-cols-2 gap-10">
-                <div class="glass-card rounded-3xl p-8 gradient-border border transition-all-300">
+                
+                <div class="glass-card rounded-[2.5rem] p-10 gradient-border border transition-all hover:bg-slate-900/40">
                     <div class="flex gap-2 mb-6">
-                        <span class="bg-sky-500/10 text-sky-400 text-[10px] px-2 py-1 rounded font-bold uppercase tracking-tighter">React</span>
-                        <span class="bg-emerald-500/10 text-emerald-400 text-[10px] px-2 py-1 rounded font-bold uppercase tracking-tighter">PostgreSQL</span>
+                        <span class="skill-badge">Fullstack</span>
+                        <span class="skill-badge">WebSockets</span>
                     </div>
-                    <h4 class="text-2xl font-bold mb-4 italic">Distributed Task System</h4>
-                    <p class="text-slate-400 mb-8 text-sm leading-relaxed">
-                        A fullstack management tool with real-time state synchronization via WebSockets and persistent storage in an optimized SQL schema.
+                    <h4 class="text-2xl font-bold mb-4 italic tracking-tight text-white">Task Management Engine</h4>
+                    <p class="text-slate-400 mb-8 leading-relaxed">
+                        A real-time collaborative workspace. Implemented atomic state updates and a robust relational schema for team hierarchies.
                     </p>
-                    <a href="#" class="text-white font-bold text-xs uppercase tracking-widest border-b border-sky-500 pb-1">View Project</a>
+                    <a href="https://github.com/Bhavadeeesh-1904" class="inline-flex items-center gap-2 text-sky-400 font-bold hover:text-white transition">
+                        REPOSITORY <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                    </a>
                 </div>
 
-                <div class="glass-card rounded-3xl p-8 gradient-border border transition-all-300">
+                <div class="glass-card rounded-[2.5rem] p-10 gradient-border border transition-all hover:bg-slate-900/40">
                     <div class="flex gap-2 mb-6">
-                        <span class="bg-indigo-500/10 text-indigo-400 text-[10px] px-2 py-1 rounded font-bold uppercase tracking-tighter">Next.js</span>
-                        <span class="bg-purple-500/10 text-purple-400 text-[10px] px-2 py-1 rounded font-bold uppercase tracking-tighter">AWS Lambda</span>
+                        <span class="skill-badge">SaaS</span>
+                        <span class="skill-badge">API Design</span>
                     </div>
-                    <h4 class="text-2xl font-bold mb-4 italic">Serverless Analytics</h4>
-                    <p class="text-slate-400 mb-8 text-sm leading-relaxed">
-                        Cloud-native analytics engine processing millions of events per day using serverless functions and an event-driven architecture.
+                    <h4 class="text-2xl font-bold mb-4 italic tracking-tight text-white">Serverless Analytics Platform</h4>
+                    <p class="text-slate-400 mb-8 leading-relaxed">
+                        Event-driven analytics processing millions of events. Built using AWS Lambda and Next.js for high performance and zero-cost scaling.
                     </p>
-                    <a href="#" class="text-white font-bold text-xs uppercase tracking-widest border-b border-sky-500 pb-1">View Project</a>
+                    <a href="https://github.com/Bhavadeeesh-1904" class="inline-flex items-center gap-2 text-sky-400 font-bold hover:text-white transition">
+                        REPOSITORY <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                    </a>
                 </div>
+
             </div>
         </div>
     </section>
 
-    <footer class="py-20 px-6 border-t border-slate-900">
+    <footer class="py-24 px-6 border-t border-slate-900">
         <div class="max-w-4xl mx-auto text-center">
-            <h3 class="text-4xl font-bold mb-8">Ready to initiate?</h3>
-            <div class="grid md:grid-cols-2 gap-6 max-w-2xl mx-auto mb-16">
-                <a href="mailto:bavadeeshvanga@gmail.com" class="glass-card p-6 rounded-2xl hover:bg-slate-900 transition">
-                    <div class="text-xs text-slate-500 uppercase font-bold mb-2 tracking-widest">Email</div>
-                    <div class="text-sky-400 font-bold">bavadeeshvanga@gmail.com</div>
+            <h3 class="text-5xl font-black mb-8 italic">Let's Connect.</h3>
+            <div class="flex flex-col md:flex-row gap-6 justify-center mb-16">
+                <a href="mailto:bavadeeshvanga@gmail.com" class="glass-card p-6 rounded-2xl hover:bg-sky-500 hover:text-slate-950 transition duration-500">
+                    <div class="text-xs uppercase font-bold tracking-widest mb-1">Email</div>
+                    <div class="font-bold">bavadeeshvanga@gmail.com</div>
                 </a>
-                <a href="tel:9392032509" class="glass-card p-6 rounded-2xl hover:bg-slate-900 transition">
-                    <div class="text-xs text-slate-500 uppercase font-bold mb-2 tracking-widest">Phone</div>
-                    <div class="text-sky-400 font-bold">+91 9392032509</div>
+                <a href="tel:9392032509" class="glass-card p-6 rounded-2xl hover:bg-sky-500 hover:text-slate-950 transition duration-500">
+                    <div class="text-xs uppercase font-bold tracking-widest mb-1">Phone</div>
+                    <div class="font-bold">+91 9392032509</div>
                 </a>
             </div>
-            <p class="text-slate-700 text-[10px] uppercase tracking-[0.5em] font-bold italic">
-                Designed & Built by Vanga Bhavadeesh Sai Reddy 
+            <div class="flex justify-center gap-10 opacity-30 text-[10px] uppercase font-bold tracking-[0.4em]">
+                <a href="https://github.com/Bhavadeeesh-1904" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/bhavadeesh-sai-reddy-vanga-53200a348/" target="_blank">LinkedIn</a>
+            </div>
+            <p class="mt-12 opacity-10 text-[9px] uppercase tracking-[0.8em]">
+                © 2025 Vanga Bhavadeesh Sai Reddy
             </p>
         </div>
     </footer>
