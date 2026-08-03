@@ -29,7 +29,7 @@ I am a Fullstack Engineer dedicated to building scalable, high-performance web a
 ---
 
 ### 📫 Connect with Me
-- **Portfolio:** [Bhavadeeesh-1904.github.io](https://Bhavadeeesh-1904.github.io)
+- **Portfolio:** [https://bhavadeeesh-1904.github.io/Bhavadeeesh-1904/)
 - **LinkedIn:** [Bhavadeesh Sai Reddy](https://www.linkedin.com/in/bhavadeesh-sai-reddy-vanga-53200a348/)
 - **Email:** bavadeeshvanga@gmail.com
 - **Phone:** +91 9392032509
